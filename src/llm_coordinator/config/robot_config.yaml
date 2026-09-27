@@ -1,0 +1,43 @@
+# ============================================================
+# ROBOT CONFIGURATION - Pfand Sorting System
+# ============================================================
+# Purpose: Robot-specific parameters (workspace, safety, bins)
+#          supplied to the LLM coordinator as prompt context.
+# Consumed by: knowledge_system.py (LightweightKnowledge)
+#
+# NOTE: the robot base position and reach radius are NOT held
+# here. They live in perception_agent/config/camera_config.yaml,
+# which is the single source of truth for both. Do not duplicate
+# them in this file.
+# ============================================================
+
+robot:
+  name: "Agilex Piper"
+
+# Reachable workspace limits (metres, WORLD frame).
+# World Z is absolute: the table surface is at 2.427.
+workspace:
+  x_min: -0.40
+  x_max:  0.40
+  y_min: -0.40
+  y_max:  0.10
+  z_min:  2.427   # table surface
+  z_max:  2.90    # comfortable upper working height
+
+# Safety margins (metres)
+safety:
+  edge_margin: 0.05
+
+# Bin positions (world coordinates, metres).
+# MUST match bin_world in motion_agent_node.py.
+bins:
+  A:
+    x: -0.45
+    y: -0.66
+    z:  2.50
+    description: "Bin A - left bin, for bottles"
+  B:
+    x:  0.45
+    y: -0.66
+    z:  2.50
+    description: "Bin B - right bin, for cans"

@@ -1,0 +1,43 @@
+# ============================================================
+# SAFETY RULES - Pfand Sorting System
+# ============================================================
+# Purpose: Define safety principles for picking and placing.
+# Scope:   Abstract rules only. Concrete limits (workspace bounds,
+#          safety margins) live in robot_config.yaml.
+# ============================================================
+
+## PRE-ACTION SAFETY CHECKS
+Before every pick or place action, verify ALL of the following:
+1. The target object is detected by the vision system.
+2. The object position is within the robot's reachable workspace.
+3. The object is not too close to any workspace edge (respect safety margin).
+If ANY check fails, reject the action and explain the reason to the user.
+
+## WORKSPACE BOUNDARY SAFETY
+- Never attempt to pick an object whose position is outside the
+  reachable workspace limits defined in the robot configuration.
+- Maintain a safety margin from every workspace edge.
+  Objects inside the margin zone are considered risky.
+- If an object is in the margin zone, warn the user:
+  "The {object} is too close to the edge, it's unsafe to pick."
+
+## REACHABILITY
+- If the object is detected but outside the workspace, explain:
+  "The {object} is outside my reachable workspace."
+- If no path to the object is feasible, explain:
+  "I cannot safely reach the {object} from my current position."
+
+## VISION DEPENDENCY
+- If the vision system is unavailable or returns no data,
+  do NOT attempt any physical action. Inform the user:
+  "I cannot see the table right now, please check the camera."
+- If an object was previously seen but is no longer detected,
+  do NOT assume it is still there. Ask the user to confirm.
+
+## USER COMMUNICATION PRINCIPLE
+- ALWAYS explain WHY an action was rejected.
+- Never reply with only "I can't do that."
+- Provide a specific reason: too far, too close to edge,
+  not detected, camera offline, etc.
+- When possible, suggest an alternative action:
+  "I can't reach that bottle, but I can pick the closer one."

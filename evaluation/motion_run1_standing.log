@@ -1,0 +1,82 @@
+[INFO] [1789134336.437992870] [motion_agent_node]: Motion Agent (5e) started.
+[INFO] [1789134757.955131825] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134758.957717030] [motion_agent_node]: Sending goal: pose (0.237,0.155,0.253)
+[INFO] [1789134762.558005121] [motion_agent_node]:   OK (pose (0.237,0.155,0.253))
+[INFO] [1789134762.559247760] [motion_agent_node]: Sending goal: pose (0.237,0.155,0.178)
+[INFO] [1789134765.271398473] [motion_agent_node]:   OK (pose (0.237,0.155,0.178))
+[INFO] [1789134765.272703479] [motion_agent_node]: Sending goal: joints [0.6817, 1.6146, -0.8379, -0.6222, 0.6253, 1.5708]
+[INFO] [1789134766.795023227] [motion_agent_node]:   OK (joints [0.6817, 1.6146, -0.8379, -0.6222, 0.6253, 1.5708])
+[INFO] [1789134766.796262256] [motion_agent_node]: Sending goal: joints [0.6817, 1.7146000000000001, -0.7379, -0.6222, 0.6253, 1.5708]
+[INFO] [1789134767.488334160] [motion_agent_node]:   OK (joints [0.6817, 1.7146000000000001, -0.7379, -0.6222, 0.6253, 1.5708])
+[INFO] [1789134767.740123819] [motion_agent_node]: Gripper -> CLOSE
+[INFO] [1789134768.743361822] [motion_agent_node]: Sending goal: joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0]
+[INFO] [1789134774.364845933] [motion_agent_node]:   OK (joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0])
+[INFO] [1789134774.866586122] [motion_agent_node]: Sending goal: joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0]
+[INFO] [1789134778.443301485] [motion_agent_node]:   OK (joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0])
+[INFO] [1789134778.444541658] [motion_agent_node]: Sending goal: joints [-1.5, 1.9, -1.6, 0.0, 1.15, 0.0]
+[INFO] [1789134779.908026559] [motion_agent_node]:   OK (joints [-1.5, 1.9, -1.6, 0.0, 1.15, 0.0])
+[INFO] [1789134781.160982674] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134782.162390316] [motion_agent_node]: Sending goal: joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0]
+[INFO] [1789134783.585255242] [motion_agent_node]:   OK (joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0])
+[INFO] [1789134783.586331938] [motion_agent_node]: Sending goal: joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0]
+[INFO] [1789134787.129424666] [motion_agent_node]:   OK (joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0])
+[INFO] [1789134787.130482833] [motion_agent_node]: Sending goal: joints [0.0, 0.8, -1.0, 0.0, 1.0, 0.0]
+[INFO] [1789134788.523621166] [motion_agent_node]:   OK (joints [0.0, 0.8, -1.0, 0.0, 1.0, 0.0])
+[INFO] [1789134789.776043045] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134790.778553170] [motion_agent_node]: Sending goal: pose (0.417,-0.001,0.253)
+[INFO] [1789134793.769784417] [motion_agent_node]:   OK (pose (0.417,-0.001,0.253))
+[INFO] [1789134793.771002507] [motion_agent_node]: Sending goal: pose (0.417,-0.001,0.178)
+[INFO] [1789134795.679516301] [motion_agent_node]:   OK (pose (0.417,-0.001,0.178))
+[INFO] [1789134795.680650466] [motion_agent_node]: Sending goal: joints [-0.0345, 1.9546, -1.3622, 0.3072, 0.5946, 1.5708]
+[INFO] [1789134801.949162217] [motion_agent_node]:   OK (joints [-0.0345, 1.9546, -1.3622, 0.3072, 0.5946, 1.5708])
+[INFO] [1789134801.950299756] [motion_agent_node]: Sending goal: joints [-0.0345, 2.0545999999999998, -1.2622, 0.3072, 0.5946, 1.5708]
+[INFO] [1789134802.662814430] [motion_agent_node]:   OK (joints [-0.0345, 2.0545999999999998, -1.2622, 0.3072, 0.5946, 1.5708])
+[INFO] [1789134802.914536643] [motion_agent_node]: Gripper -> CLOSE
+[INFO] [1789134803.916338282] [motion_agent_node]: Sending goal: joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0]
+[INFO] [1789134809.534223255] [motion_agent_node]:   OK (joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0])
+[INFO] [1789134810.036076622] [motion_agent_node]: Sending goal: joints [1.5, 1.45, -1.75, 0.0, 1.2, 0.0]
+[INFO] [1789134813.581350590] [motion_agent_node]:   OK (joints [1.5, 1.45, -1.75, 0.0, 1.2, 0.0])
+[INFO] [1789134813.582076061] [motion_agent_node]: Sending goal: joints [1.5, 1.9, -1.6, 0.0, 1.15, 0.0]
+[INFO] [1789134815.084265213] [motion_agent_node]:   OK (joints [1.5, 1.9, -1.6, 0.0, 1.15, 0.0])
+[INFO] [1789134816.336779340] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134817.338383055] [motion_agent_node]: Sending goal: joints [1.5, 1.45, -1.75, 0.0, 1.2, 0.0]
+[INFO] [1789134818.811844069] [motion_agent_node]:   OK (joints [1.5, 1.45, -1.75, 0.0, 1.2, 0.0])
+[INFO] [1789134818.812884838] [motion_agent_node]: Sending goal: joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0]
+[INFO] [1789134822.367479203] [motion_agent_node]:   OK (joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0])
+[INFO] [1789134822.368306474] [motion_agent_node]: Sending goal: joints [0.0, 0.8, -1.0, 0.0, 1.0, 0.0]
+[INFO] [1789134823.731894492] [motion_agent_node]:   OK (joints [0.0, 0.8, -1.0, 0.0, 1.0, 0.0])
+[INFO] [1789134824.984008569] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134825.985079789] [motion_agent_node]: Sending goal: pose (0.370,0.210,0.253)
+[INFO] [1789134829.628745015] [motion_agent_node]:   OK (pose (0.370,0.210,0.253))
+[INFO] [1789134829.629548038] [motion_agent_node]: Sending goal: pose (0.370,0.210,0.178)
+[INFO] [1789134830.559963345] [motion_agent_node]:   OK (pose (0.370,0.210,0.178))
+[INFO] [1789134830.560694704] [motion_agent_node]: Sending goal: joints [0.548, 1.964, -1.4364, -0.2514, 0.6795, 1.5708]
+[INFO] [1789134833.455740183] [motion_agent_node]:   OK (joints [0.548, 1.964, -1.4364, -0.2514, 0.6795, 1.5708])
+[INFO] [1789134833.456474939] [motion_agent_node]: Sending goal: joints [0.548, 2.064, -1.3363999999999998, -0.2514, 0.6795, 1.5708]
+[INFO] [1789134834.168717177] [motion_agent_node]:   OK (joints [0.548, 2.064, -1.3363999999999998, -0.2514, 0.6795, 1.5708])
+[INFO] [1789134834.420414342] [motion_agent_node]: Gripper -> CLOSE
+[INFO] [1789134835.422359963] [motion_agent_node]: Sending goal: joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0]
+[INFO] [1789134841.031488229] [motion_agent_node]:   OK (joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0])
+[INFO] [1789134841.532846598] [motion_agent_node]: Sending goal: joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0]
+[INFO] [1789134845.067428672] [motion_agent_node]:   OK (joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0])
+[INFO] [1789134845.068090906] [motion_agent_node]: Sending goal: joints [-1.5, 1.9, -1.6, 0.0, 1.15, 0.0]
+[INFO] [1789134846.550630843] [motion_agent_node]:   OK (joints [-1.5, 1.9, -1.6, 0.0, 1.15, 0.0])
+[INFO] [1789134847.802510409] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134848.803965128] [motion_agent_node]: Sending goal: joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0]
+[INFO] [1789134850.265556855] [motion_agent_node]:   OK (joints [-1.5, 1.45, -1.75, 0.0, 1.2, 0.0])
+[INFO] [1789134850.266253800] [motion_agent_node]: Sending goal: joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0]
+[INFO] [1789134853.832285698] [motion_agent_node]:   OK (joints [0.0, 1.2, -1.2, 0.0, 1.2, 0.0])
+[INFO] [1789134853.834482270] [motion_agent_node]: Sending goal: joints [0.0, 0.8, -1.0, 0.0, 1.0, 0.0]
+[INFO] [1789134855.198756592] [motion_agent_node]:   OK (joints [0.0, 0.8, -1.0, 0.0, 1.0, 0.0])
+[INFO] [1789134856.451693731] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134857.453785772] [motion_agent_node]: Sending goal: pose (0.454,0.361,0.253)
+[WARN] [1789134867.510792678] [motion_agent_node]:   FAILED code=99999 (pose (0.454,0.361,0.253))
+[INFO] [1789134868.763480026] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134869.764981848] [motion_agent_node]: Sending goal: pose (0.531,-0.267,0.253)
+[WARN] [1789134879.812501332] [motion_agent_node]:   FAILED code=99999 (pose (0.531,-0.267,0.253))
+[INFO] [1789134881.065166388] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134882.067243013] [motion_agent_node]: Sending goal: pose (0.435,0.438,0.253)
+[WARN] [1789134892.123931718] [motion_agent_node]:   FAILED code=99999 (pose (0.435,0.438,0.253))
+[INFO] [1789134893.376687599] [motion_agent_node]: Gripper -> OPEN
+[INFO] [1789134894.378018946] [motion_agent_node]: Sending goal: pose (0.431,0.475,0.253)
+[WARN] [1789134904.436473696] [motion_agent_node]:   FAILED code=99999 (pose (0.431,0.475,0.253))

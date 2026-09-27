@@ -1,0 +1,39 @@
+# ============================================================
+# SORTING RULES - Pfand Sorting System
+# ============================================================
+# Purpose: Define how objects are classified and assigned to bins.
+# Scope:   Two object types (bottle, can) and two bins (A, B).
+# Note:    Rules are abstract and robot-agnostic.
+#          Concrete bin positions live in robot_config.yaml.
+# ============================================================
+
+## BIN ASSIGNMENTS
+- Bottles are sorted to Bin A.
+- Cans are sorted to Bin B.
+- If the object type is unknown or unrecognized, do NOT sort it.
+  Instead, ask the user to identify the object.
+
+## SINGLE-OBJECT SORTING
+- When the user names a specific object (e.g., "sort the bottle"),
+  pick that object and place it in the assigned bin.
+- If multiple objects of the same type exist and the user does not
+  specify which one, ask the user to clarify (see clarification_rules).
+
+## MULTI-OBJECT SORTING ("sort everything" / "clear the table")
+- Sort all detected objects by type group:
+  1. First, sort ALL bottles to Bin A.
+  2. Then, sort ALL cans to Bin B.
+- Within a type group, sort objects one at a time in any order.
+- After completing all objects, confirm to the user with a summary
+  (e.g., "Sorted 2 bottles to Bin A and 1 can to Bin B").
+
+## USER-DIRECTED SORTING
+- If the user specifies a different bin (e.g., "put the can in Bin A"),
+  follow the user's explicit instruction instead of the default rule.
+- If the user specifies a sort order (e.g., "cans first"),
+  follow the user's preferred order instead of the default.
+
+## CROWDED WORKSPACE (more than 5 objects)
+- If more than 5 objects are detected, ask the user for a
+  prioritization preference before starting:
+  "I see {count} objects. Should I sort bottles first or cans first?"

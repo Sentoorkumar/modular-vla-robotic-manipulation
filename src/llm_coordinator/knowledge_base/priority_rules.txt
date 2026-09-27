@@ -1,0 +1,34 @@
+# ============================================================
+# PRIORITY RULES - Pfand Sorting System
+# ============================================================
+# Purpose: Define execution order when handling multiple objects
+#          or multiple tasks.
+# Scope:   Ordering and sequencing logic only.
+# ============================================================
+
+## DEFAULT SORTING ORDER
+- When sorting multiple object types, process by type group:
+  1. All bottles first (to Bin A).
+  2. All cans second (to Bin B).
+- This minimizes bin switching and is more efficient.
+
+## USER OVERRIDE
+- If the user specifies a different order (e.g., "cans first"),
+  follow the user's preference instead of the default.
+
+## SYSTEMATIC CLEARING ("clear the table" / "sort everything")
+- Process one object type completely before moving to the next.
+- Do not alternate between types (pick bottle, pick can, pick bottle…).
+- After completing each type group, briefly confirm progress:
+  "All bottles sorted. Now sorting cans."
+
+## CROWDED WORKSPACE (more than 5 objects)
+- Ask the user for prioritization before starting:
+  "I see {count} objects. Should I sort bottles first or cans first?"
+- If the user does not specify, use the default order (bottles first).
+
+## SINGLE COMMAND, MULTIPLE STEPS
+- When a single command requires multiple pick-and-place actions,
+  plan and execute them sequentially (one at a time).
+- Confirm completion after ALL steps are done, not after each step.
+  Exception: confirm each type group when sorting mixed objects.

@@ -1,0 +1,1032 @@
+wall_time_iso,unix_time,node,event,trial_id,target,pose,extra
+2026-09-11T18:05:48,1789142748.790067,llm,voice_received,clear all,clear all,,
+2026-09-11T18:05:48,1789142748.790257,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:05:48,1789142748.791032,motion,command_received,,,,
+2026-09-11T18:05:49,1789142749.792284,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:06:28,1789142788.219251,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:06:28,1789142788.219424,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:06:29,1789142789.220591,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:06:47,1789142807.022376,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:06:48,1789142808.023629,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:07:20,1789142840.043817,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:07:20,1789142840.043926,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:07:21,1789142841.044196,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:07:46,1789142866.168845,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:07:47,1789142867.169300,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T18:08:07,1789142887.075805,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T18:08:28,1789142908.416877,isaac,trial_result,1,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.02,-0.25,2.44);end=(-0.43,-0.72,2.46);maxz=2.793"
+2026-09-11T18:08:28,1789142908.417270,isaac,trial_result,1,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.19,-0.40,2.44);end=(-0.43,-0.69,2.45);maxz=2.791"
+2026-09-11T18:09:58,1789142998.825552,llm,voice_received,clear all,clear all,,
+2026-09-11T18:09:58,1789142998.825733,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:09:58,1789142998.826929,motion,command_received,,,,
+2026-09-11T18:09:59,1789142999.828288,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:10:33,1789143033.343449,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:10:33,1789143033.343586,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:10:34,1789143034.344193,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:11:00,1789143060.968240,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:11:01,1789143061.969288,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:11:32,1789143092.661643,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:11:32,1789143092.661731,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:11:33,1789143093.662217,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:11:52,1789143112.747328,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:11:53,1789143113.748222,motion,sequence_start,can 3,can 3,standing,
+2026-09-11T18:12:08,1789143128.217535,motion,sequence_end,can 3,can 3,standing,
+2026-09-11T18:14:01,1789143241.697872,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:14:01,1789143241.698025,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:14:01,1789143241.698928,motion,command_received,,,,
+2026-09-11T18:14:02,1789143242.700237,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:14:36,1789143276.550303,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:14:36,1789143276.550438,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:14:37,1789143277.551193,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:15:01,1789143301.930159,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:15:02,1789143302.931177,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:15:26,1789143326.897888,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:15:27,1789143327.898274,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:16:03,1789143363.540729,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T18:16:03,1789143363.540816,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:16:04,1789143364.541198,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:16:23,1789143383.911336,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:16:56,1789143416.341421,isaac,trial_result,3,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.08,-0.36,2.45);end=(0.40,-0.71,2.55);maxz=2.784"
+2026-09-11T18:16:56,1789143416.342068,isaac,trial_result,3,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.16,-0.35,2.45);end=(-0.50,-0.65,2.45);maxz=2.795"
+2026-09-11T18:16:56,1789143416.342447,isaac,trial_result,3,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.28,-0.38,2.45);end=(-0.40,-0.69,2.45);maxz=2.731"
+2026-09-11T18:20:25,1789143625.683733,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:20:25,1789143625.683875,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:20:25,1789143625.684484,motion,command_received,,,,
+2026-09-11T18:20:26,1789143626.685544,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:20:59,1789143659.869969,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:20:59,1789143659.870067,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:21:00,1789143660.870220,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:21:35,1789143695.335253,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:21:35,1789143695.335339,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:21:36,1789143696.336192,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:21:54,1789143714.002050,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:21:55,1789143715.003181,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:22:32,1789143752.294462,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:22:32,1789143752.294599,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:22:33,1789143753.295187,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T18:23:06,1789143786.890106,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T18:23:06,1789143786.890231,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T18:23:20,1789143800.343913,isaac,trial_result,4,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.34,2.45);end=(-0.42,-0.64,2.45);maxz=2.786"
+2026-09-11T18:23:20,1789143800.344138,isaac,trial_result,4,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.33,-0.36,2.45);end=(0.36,-0.71,2.46);maxz=2.805"
+2026-09-11T18:23:20,1789143800.344287,isaac,trial_result,4,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=on_floor;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.40,-0.25,2.45);end=(-0.13,-2.26,1.65);maxz=2.920"
+2026-09-11T18:23:20,1789143800.344421,isaac,trial_result,4,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.07,-0.35,2.45);end=(-0.43,-0.68,2.45);maxz=2.788"
+2026-09-11T18:23:20,1789143800.344545,isaac,trial_result,4,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.28,-0.32,2.45);end=(-0.43,-0.72,2.45);maxz=2.791"
+2026-09-11T18:25:01,1789143901.390226,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:25:01,1789143901.390376,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:25:01,1789143901.390853,motion,command_received,,,,
+2026-09-11T18:25:02,1789143902.392194,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:25:34,1789143934.288488,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:25:34,1789143934.288581,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:25:35,1789143935.289237,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:25:55,1789143955.703389,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:25:56,1789143956.704393,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:26:21,1789143981.318641,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:26:22,1789143982.319330,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T18:26:43,1789144003.125851,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T18:27:48,1789144068.886446,isaac,trial_result,5,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.01,-0.16,2.45);end=(0.50,-0.69,2.46);maxz=2.745"
+2026-09-11T18:27:48,1789144068.886875,isaac,trial_result,5,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.17,-0.27,2.44);end=(-0.43,-0.71,2.45);maxz=2.786"
+2026-09-11T18:31:49,1789144309.028510,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:31:49,1789144309.028752,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:31:49,1789144309.029532,motion,command_received,,,,
+2026-09-11T18:31:50,1789144310.030266,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:32:11,1789144331.466064,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:32:12,1789144332.467211,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:32:48,1789144368.943156,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:32:48,1789144368.943267,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:32:49,1789144369.944262,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:33:21,1789144401.124083,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T18:33:21,1789144401.124249,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:33:22,1789144402.125213,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:33:56,1789144436.274246,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T18:33:56,1789144436.274329,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:33:57,1789144437.275208,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:34:30,1789144470.170823,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:34:30,1789144470.170940,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:35:00,1789144500.796135,isaac,trial_result,6,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.20,2.45);end=(-0.42,-0.66,2.45);maxz=2.786"
+2026-09-11T18:35:00,1789144500.796372,isaac,trial_result,6,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.09,-0.36,2.45);end=(0.33,-0.71,2.48);maxz=2.791"
+2026-09-11T18:35:00,1789144500.796528,isaac,trial_result,6,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.17,-0.18,2.45);end=(0.36,-0.72,2.52);maxz=2.792"
+2026-09-11T18:35:00,1789144500.796752,isaac,trial_result,6,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.19,-0.26,2.45);end=(-0.43,-0.71,2.45);maxz=2.793"
+2026-09-11T18:35:37,1789144537.445818,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:35:37,1789144537.446083,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:35:37,1789144537.446633,motion,command_received,,,,
+2026-09-11T18:35:38,1789144538.448144,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:36:12,1789144572.636662,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:36:12,1789144572.636784,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:36:13,1789144573.637187,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:36:51,1789144611.919881,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:36:51,1789144611.919969,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:36:52,1789144612.920273,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:37:25,1789144645.300635,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:37:25,1789144645.300758,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:37:26,1789144646.301203,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:37:58,1789144678.157978,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:37:58,1789144678.158071,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:37:59,1789144679.158279,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:38:10,1789144690.480229,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:38:22,1789144702.808221,isaac,trial_result,6,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.20,2.45);end=(-0.43,-0.70,2.45);maxz=2.791"
+2026-09-11T18:38:22,1789144702.808445,isaac,trial_result,6,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.09,-0.36,2.45);end=(0.34,-0.67,2.46);maxz=2.795"
+2026-09-11T18:38:22,1789144702.808600,isaac,trial_result,6,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.17,-0.18,2.45);end=(0.40,-0.64,2.50);maxz=2.792"
+2026-09-11T18:38:22,1789144702.808738,isaac,trial_result,6,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.07,-0.35,2.45);end=(-0.44,-0.73,2.47);maxz=2.792"
+2026-09-11T18:38:22,1789144702.808868,isaac,trial_result,6,/World/_05_tomato_soup_can_01,,"outcome=lifted_only;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.19,-0.26,2.45);end=(0.23,-0.16,2.44);maxz=2.793"
+2026-09-11T18:39:28,1789144768.428799,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:39:28,1789144768.428994,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:39:28,1789144768.429331,motion,command_received,,,,
+2026-09-11T18:39:29,1789144769.430578,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:40:05,1789144805.413515,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:40:05,1789144805.413640,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:40:06,1789144806.414198,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:40:37,1789144837.218373,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:40:37,1789144837.218533,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:40:38,1789144838.219304,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:41:01,1789144861.540657,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:41:02,1789144862.541221,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:41:36,1789144896.071692,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:41:36,1789144896.071815,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:42:05,1789144925.720220,isaac,trial_result,7,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.32,2.45);end=(-0.47,-0.71,2.45);maxz=2.795"
+2026-09-11T18:42:05,1789144925.720527,isaac,trial_result,7,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.17,-0.26,2.45);end=(0.45,-0.73,2.51);maxz=2.791"
+2026-09-11T18:42:05,1789144925.720751,isaac,trial_result,7,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.01,-0.16,2.45);end=(-0.42,-0.63,2.45);maxz=2.794"
+2026-09-11T18:42:51,1789144971.266798,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:42:51,1789144971.267003,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:42:51,1789144971.267449,motion,command_received,,,,
+2026-09-11T18:42:52,1789144972.268210,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:43:11,1789144991.367189,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:43:12,1789144992.368197,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:43:46,1789145026.903763,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T18:43:46,1789145026.903886,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:43:47,1789145027.904653,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:44:20,1789145060.410181,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:44:20,1789145060.410300,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:44:21,1789145061.411217,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:44:56,1789145096.654443,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:44:56,1789145096.654558,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:44:57,1789145097.655265,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:45:08,1789145108.978719,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:45:33,1789145133.782649,isaac,trial_result,8,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.20,2.45);end=(-0.44,-0.70,2.45);maxz=2.792"
+2026-09-11T18:45:33,1789145133.783064,isaac,trial_result,8,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.22,-0.21,2.45);end=(0.37,-0.72,2.46);maxz=2.775"
+2026-09-11T18:45:33,1789145133.783418,isaac,trial_result,8,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.17,-0.18,2.45);end=(0.45,-0.73,2.51);maxz=2.785"
+2026-09-11T18:47:02,1789145222.849848,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:47:02,1789145222.850047,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:47:02,1789145222.850436,motion,command_received,,,,
+2026-09-11T18:47:03,1789145223.851189,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:47:42,1789145262.228233,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:47:42,1789145262.228343,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:47:43,1789145263.229213,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:48:02,1789145282.374988,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:48:03,1789145283.375607,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:48:25,1789145305.997098,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:48:26,1789145306.998303,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T18:48:47,1789145327.130435,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T18:49:20,1789145360.219308,isaac,trial_result,9,/World/_07_tuna_fish_can,,"outcome=lifted_only;lifted=1;objtype=tuna_can;pose=laying;start=(-0.17,-0.29,2.45);end=(0.00,-0.46,2.44);maxz=2.734"
+2026-09-11T18:49:20,1789145360.219703,isaac,trial_result,9,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.17,-0.35,2.45);end=(-0.45,-0.67,2.45);maxz=2.790"
+2026-09-11T18:50:22,1789145422.005097,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:50:22,1789145422.005300,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:50:22,1789145422.005991,motion,command_received,,,,
+2026-09-11T18:50:23,1789145423.007183,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:50:55,1789145455.368051,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:50:55,1789145455.368174,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:50:56,1789145456.369330,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:51:27,1789145487.434062,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:51:27,1789145487.434210,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:51:28,1789145488.435312,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:52:03,1789145523.902865,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T18:52:03,1789145523.902956,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:52:04,1789145524.903172,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:52:37,1789145557.962157,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T18:52:37,1789145557.962244,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:52:38,1789145558.963211,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:52:50,1789145570.286357,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:53:20,1789145600.149750,isaac,trial_result,10,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.17,-0.15,2.45);end=(-0.42,-0.71,2.46);maxz=2.787"
+2026-09-11T18:53:20,1789145600.149962,isaac,trial_result,10,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.20,-0.21,2.45);end=(0.37,-0.69,2.46);maxz=2.797"
+2026-09-11T18:53:20,1789145600.150115,isaac,trial_result,10,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.17,-0.34,2.45);end=(0.42,-0.73,2.51);maxz=2.787"
+2026-09-11T18:53:20,1789145600.150247,isaac,trial_result,10,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.42,-0.35,2.45);end=(-0.48,-0.67,2.45);maxz=2.789"
+2026-09-11T18:54:25,1789145665.323840,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:54:25,1789145665.324004,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:54:25,1789145665.324891,motion,command_received,,,,
+2026-09-11T18:54:26,1789145666.326170,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:54:44,1789145684.823799,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:54:45,1789145685.824219,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:55:05,1789145705.260681,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:55:06,1789145706.261232,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:55:24,1789145724.819798,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:55:25,1789145725.820264,motion,sequence_start,can 3,can 3,lying,
+2026-09-11T18:55:45,1789145745.100686,motion,sequence_end,can 3,can 3,lying,
+2026-09-11T18:56:38,1789145798.915992,isaac,trial_result,11,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=lifted_only;lifted=1;objtype=big_bottle;pose=laying;start=(-0.15,-0.19,2.45);end=(0.10,-0.45,2.46);maxz=2.723"
+2026-09-11T18:56:38,1789145798.916351,isaac,trial_result,11,/World/_05_tomato_soup_can_01,,"outcome=lifted_only;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.33,-0.25,2.45);end=(-0.01,-0.49,2.47);maxz=2.734"
+2026-09-11T18:57:59,1789145879.054343,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T18:57:59,1789145879.054518,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T18:57:59,1789145879.055039,motion,command_received,,,,
+2026-09-11T18:58:00,1789145880.056243,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T18:58:21,1789145901.342854,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T18:58:22,1789145902.343210,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T18:58:42,1789145922.897932,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T18:58:43,1789145923.898174,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T18:59:03,1789145943.018133,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T18:59:04,1789145944.019319,motion,sequence_start,can 3,can 3,lying,
+2026-09-11T18:59:24,1789145964.258100,motion,sequence_end,can 3,can 3,lying,
+2026-09-11T18:59:47,1789145987.628386,isaac,trial_result,12,/World/_07_tuna_fish_can,,"outcome=lifted_only;lifted=1;objtype=tuna_can;pose=laying;start=(-0.17,-0.26,2.45);end=(0.01,-0.46,2.44);maxz=2.742"
+2026-09-11T19:00:44,1789146044.840983,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:00:44,1789146044.841172,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:00:44,1789146044.841630,motion,command_received,,,,
+2026-09-11T19:00:45,1789146045.842226,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:01:11,1789146071.599748,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:01:12,1789146072.600218,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:01:35,1789146095.865497,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:01:36,1789146096.866321,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:02:10,1789146130.774671,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T19:02:10,1789146130.774796,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:02:36,1789146156.399390,isaac,trial_result,13,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.08,-0.13,2.45);end=(0.40,-0.71,2.55);maxz=2.793"
+2026-09-11T19:03:06,1789146186.384449,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:03:06,1789146186.384617,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:03:06,1789146186.385015,motion,command_received,,,,
+2026-09-11T19:03:07,1789146187.386628,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:03:29,1789146209.799294,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:03:30,1789146210.800248,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:04:07,1789146247.090435,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:04:07,1789146247.090559,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:04:30,1789146270.754847,isaac,trial_result,14,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(0.23,-0.23,2.44);end=(0.52,-0.60,2.45);maxz=2.786"
+2026-09-11T19:05:17,1789146317.632653,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:05:17,1789146317.632883,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:05:17,1789146317.633349,motion,command_received,,,,
+2026-09-11T19:05:18,1789146318.634194,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:05:53,1789146353.133402,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:05:53,1789146353.133545,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:05:54,1789146354.134256,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:06:16,1789146376.506423,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:06:17,1789146377.507292,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:06:50,1789146410.086984,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T19:06:50,1789146410.087130,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:06:51,1789146411.088192,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:07:26,1789146446.007300,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T19:07:26,1789146446.007433,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:07:27,1789146447.008859,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:07:38,1789146458.332824,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:08:19,1789146499.197256,isaac,trial_result,15,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.02,-0.12,2.45);end=(-0.43,-0.73,2.47);maxz=2.790"
+2026-09-11T19:08:19,1789146499.197471,isaac,trial_result,15,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.08,-0.25,2.45);end=(0.34,-0.72,2.49);maxz=2.775"
+2026-09-11T19:08:19,1789146499.197699,isaac,trial_result,15,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.30,-0.21,2.45);end=(-0.44,-0.70,2.45);maxz=2.796"
+2026-09-11T19:09:13,1789146553.104791,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:09:13,1789146553.105014,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:09:13,1789146553.105591,motion,command_received,,,,
+2026-09-11T19:09:14,1789146554.107398,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:09:52,1789146592.743072,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:09:52,1789146592.743168,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:09:53,1789146593.744178,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:10:26,1789146626.749105,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:10:26,1789146626.749242,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:10:27,1789146627.750256,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:10:47,1789146647.908513,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:10:48,1789146648.909489,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:11:35,1789146695.790347,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:11:35,1789146695.790477,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:11:36,1789146696.791262,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:11:48,1789146708.124969,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:12:09,1789146729.025645,isaac,trial_result,16,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.23,-0.19,2.45);end=(0.43,-0.73,2.52);maxz=2.774"
+2026-09-11T19:12:09,1789146729.025939,isaac,trial_result,16,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.09,-0.21,2.45);end=(-0.53,-0.70,2.47);maxz=2.788"
+2026-09-11T19:12:09,1789146729.026080,isaac,trial_result,16,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.16,-0.25,2.45);end=(-0.41,-0.68,2.45);maxz=2.786"
+2026-09-11T19:13:07,1789146787.682861,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:13:07,1789146787.683057,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:13:07,1789146787.683747,motion,command_received,,,,
+2026-09-11T19:13:08,1789146788.684298,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:13:32,1789146812.389437,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:13:33,1789146813.390220,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:14:05,1789146845.193517,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T19:14:05,1789146845.193634,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:14:06,1789146846.194193,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:14:25,1789146865.540668,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:14:26,1789146866.541211,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:14:59,1789146899.259175,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:14:59,1789146899.259294,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:15:00,1789146900.260228,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:15:11,1789146911.583223,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:15:27,1789146927.274159,isaac,trial_result,17,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.32,-0.19,2.45);end=(0.33,-0.71,2.49);maxz=2.793"
+2026-09-11T19:15:27,1789146927.274457,isaac,trial_result,17,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.09,-0.21,2.45);end=(-0.46,-0.70,2.45);maxz=2.789"
+2026-09-11T19:17:06,1789147026.001277,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:17:06,1789147026.001465,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:17:06,1789147026.002094,motion,command_received,,,,
+2026-09-11T19:17:07,1789147027.003258,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:17:42,1789147062.480323,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:17:42,1789147062.480442,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:17:43,1789147063.481278,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:18:18,1789147098.759206,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:18:18,1789147098.759301,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:18:19,1789147099.760281,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:18:52,1789147132.974650,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:18:52,1789147132.974755,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:18:53,1789147133.975284,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:19:05,1789147145.296417,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:19:06,1789147146.297194,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:19:17,1789147157.620759,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:19:46,1789147186.111163,isaac,trial_result,1,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.04,-0.28,2.45);end=(-0.44,-0.71,2.45);maxz=2.787"
+2026-09-11T19:19:46,1789147186.111392,isaac,trial_result,1,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.14,-0.19,2.45);end=(0.33,-0.70,2.46);maxz=2.784"
+2026-09-11T19:19:46,1789147186.111648,isaac,trial_result,1,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.09,-0.17,2.45);end=(-0.44,-0.65,2.45);maxz=2.795"
+2026-09-11T19:22:02,1789147322.328309,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:22:02,1789147322.328437,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:22:02,1789147322.328964,motion,command_received,,,,
+2026-09-11T19:22:03,1789147323.330224,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:22:41,1789147361.671140,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:22:41,1789147361.671230,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:22:42,1789147362.672295,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:23:17,1789147397.018510,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:23:17,1789147397.018635,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:23:18,1789147398.019235,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:23:38,1789147418.631804,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:23:39,1789147419.632304,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:24:15,1789147455.172456,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:24:15,1789147455.172584,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:24:16,1789147456.173700,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:24:27,1789147467.498816,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:25:18,1789147518.304690,isaac,trial_result,2,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.04,-0.28,2.45);end=(-0.48,-0.71,2.47);maxz=2.793"
+2026-09-11T19:25:18,1789147518.304914,isaac,trial_result,2,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.14,-0.33,2.45);end=(0.43,-0.73,2.50);maxz=2.778"
+2026-09-11T19:25:18,1789147518.305068,isaac,trial_result,2,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(0.07,-0.19,2.45);end=(0.35,-0.71,2.45);maxz=2.793"
+2026-09-11T19:26:02,1789147562.590587,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:26:02,1789147562.590760,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:26:02,1789147562.591575,motion,command_received,,,,
+2026-09-11T19:26:03,1789147563.593183,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:26:26,1789147586.656596,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:26:27,1789147587.657291,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:26:51,1789147611.247243,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:26:52,1789147612.248221,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:27:23,1789147643.740538,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T19:27:23,1789147643.740660,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:27:24,1789147644.741209,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:28:01,1789147681.508532,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T19:28:01,1789147681.508650,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:28:02,1789147682.509223,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:28:34,1789147714.834173,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T19:28:34,1789147714.834293,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:28:54,1789147734.397481,isaac,trial_result,3,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.22,-0.22,2.45);end=(0.51,-0.71,2.46);maxz=2.771"
+2026-09-11T19:28:54,1789147734.397695,isaac,trial_result,3,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.27,-0.24,2.44);end=(0.40,-0.73,2.53);maxz=2.792"
+2026-09-11T19:28:54,1789147734.397866,isaac,trial_result,3,/World/_05_tomato_soup_can,,"outcome=lifted_only;lifted=1;objtype=soup_can;pose=laying;start=(0.07,-0.29,2.44);end=(0.01,-0.43,2.44);maxz=2.754"
+2026-09-11T19:28:54,1789147734.398012,isaac,trial_result,3,/World/_05_tomato_soup_can_01,,"outcome=sorted_wrong_bin;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.12,-0.23,2.44);end=(0.41,-0.68,2.45);maxz=2.788"
+2026-09-11T19:30:33,1789147833.556852,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:30:33,1789147833.557016,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:30:33,1789147833.557914,motion,command_received,,,,
+2026-09-11T19:30:34,1789147834.559205,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:31:07,1789147867.555178,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:31:07,1789147867.555301,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:31:08,1789147868.556273,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:31:43,1789147903.507707,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:31:43,1789147903.507798,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:31:44,1789147904.508482,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:32:17,1789147937.593410,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:32:17,1789147937.593497,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:32:18,1789147938.594176,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:32:29,1789147949.918791,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:32:30,1789147950.919271,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:32:42,1789147962.242537,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:32:51,1789147971.524147,isaac,trial_result,4,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.04,-0.19,2.44);end=(-0.43,-0.72,2.46);maxz=2.787"
+2026-09-11T19:32:51,1789147971.524377,isaac,trial_result,4,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.20,-0.27,2.46);end=(0.33,-0.71,2.48);maxz=2.795"
+2026-09-11T19:32:51,1789147971.524635,isaac,trial_result,4,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.26,-0.29,2.44);end=(-0.44,-0.68,2.45);maxz=2.794"
+2026-09-11T19:33:52,1789148032.834086,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:33:52,1789148032.834285,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:33:52,1789148032.835293,motion,command_received,,,,
+2026-09-11T19:33:53,1789148033.836331,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:34:30,1789148070.893065,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:34:30,1789148070.893158,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:34:31,1789148071.894292,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:35:03,1789148103.116715,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:35:03,1789148103.116834,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:35:04,1789148104.117241,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:35:37,1789148137.590703,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:35:37,1789148137.590793,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:35:38,1789148138.591207,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:35:56,1789148156.845275,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:35:57,1789148157.846263,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:36:22,1789148182.670645,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:36:44,1789148204.325567,isaac,trial_result,5,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.04,-0.19,2.44);end=(-0.44,-0.64,2.45);maxz=2.792"
+2026-09-11T19:36:44,1789148204.325817,isaac,trial_result,5,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.20,-0.27,2.46);end=(0.33,-0.71,2.49);maxz=2.791"
+2026-09-11T19:36:44,1789148204.326152,isaac,trial_result,5,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.13,-0.35,2.44);end=(-0.42,-0.71,2.45);maxz=2.790"
+2026-09-11T19:37:45,1789148265.342409,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:37:45,1789148265.342537,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:37:45,1789148265.343050,motion,command_received,,,,
+2026-09-11T19:37:46,1789148266.344351,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:38:22,1789148302.748956,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:38:22,1789148302.749067,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:38:23,1789148303.750202,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:38:47,1789148327.292318,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:38:48,1789148328.293337,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:39:08,1789148348.279253,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:39:09,1789148349.280215,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:39:43,1789148383.250488,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T19:39:43,1789148383.250613,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:39:44,1789148384.251323,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:39:55,1789148395.581729,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:40:13,1789148413.511840,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:40:13,1789148413.512076,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:40:13,1789148413.512542,motion,command_received,,,,
+2026-09-11T19:40:14,1789148414.513895,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:40:46,1789148446.739583,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:40:46,1789148446.739710,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:40:47,1789148447.740845,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:41:11,1789148471.193614,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:41:12,1789148472.194272,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:41:23,1789148483.519683,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:42:06,1789148526.355302,isaac,trial_result,6,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.20,-0.20,2.45);end=(0.45,-0.72,2.54);maxz=2.789"
+2026-09-11T19:42:06,1789148526.355511,isaac,trial_result,6,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(0.01,-0.16,2.45);end=(0.34,-0.64,2.45);maxz=2.796"
+2026-09-11T19:42:06,1789148526.355738,isaac,trial_result,6,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.13,-0.35,2.45);end=(-0.43,-0.69,2.45);maxz=2.793"
+2026-09-11T19:44:32,1789148672.739460,isaac,trial_result,7,NONE,,outcome=no_change;lifted=0;objtype=none;pose=laying
+2026-09-11T19:44:55,1789148695.233493,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:44:55,1789148695.233724,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:44:55,1789148695.234264,motion,command_received,,,,
+2026-09-11T19:44:56,1789148696.235224,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:45:31,1789148731.715158,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:45:31,1789148731.715286,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:45:32,1789148732.716248,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:45:51,1789148751.795892,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:45:52,1789148752.796666,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:46:26,1789148786.113129,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T19:46:26,1789148786.113253,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:46:27,1789148787.114281,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:46:59,1789148819.281424,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:46:59,1789148819.281549,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:47:00,1789148820.282208,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:47:11,1789148831.611310,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:47:29,1789148849.516893,isaac,trial_result,7,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(0.01,-0.23,2.45);end=(0.42,-0.73,2.51);maxz=2.791"
+2026-09-11T19:47:29,1789148849.517098,isaac,trial_result,7,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.33,-0.24,2.45);end=(-0.43,-0.66,2.45);maxz=2.791"
+2026-09-11T19:47:29,1789148849.517247,isaac,trial_result,7,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.13,-0.35,2.45);end=(-0.43,-0.71,2.45);maxz=2.789"
+2026-09-11T19:48:09,1789148889.831879,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:48:09,1789148889.832057,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:48:09,1789148889.832487,motion,command_received,,,,
+2026-09-11T19:48:10,1789148890.833188,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:48:46,1789148926.543481,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:48:46,1789148926.544374,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:48:47,1789148927.545193,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:49:05,1789148945.997706,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:49:06,1789148946.998280,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:49:30,1789148970.728314,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:49:31,1789148971.729177,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:49:51,1789148991.855123,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:49:52,1789148992.856203,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:50:28,1789149028.871991,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T19:50:28,1789149028.872104,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:50:44,1789149044.917215,isaac,trial_result,8,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.29,-0.19,2.45);end=(-0.43,-0.64,2.46);maxz=2.790"
+2026-09-11T19:50:44,1789149044.917516,isaac,trial_result,8,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=lifted_only;lifted=1;objtype=packer_bottle;pose=laying;start=(0.12,-0.23,2.45);end=(0.03,-0.53,2.44);maxz=2.753"
+2026-09-11T19:50:44,1789149044.917735,isaac,trial_result,8,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.03,-0.35,2.45);end=(-0.45,-0.67,2.45);maxz=2.783"
+2026-09-11T19:51:23,1789149083.592567,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:51:23,1789149083.592776,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:51:23,1789149083.593887,motion,command_received,,,,
+2026-09-11T19:51:24,1789149084.595205,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:51:59,1789149119.292348,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:51:59,1789149119.292474,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:52:00,1789149120.293322,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:52:32,1789149152.915665,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T19:52:32,1789149152.915754,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:52:33,1789149153.916210,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:52:57,1789149177.133313,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:52:58,1789149178.134242,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:53:33,1789149213.587049,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:53:33,1789149213.587143,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:53:34,1789149214.588215,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:53:53,1789149233.055877,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:54:20,1789149260.481358,isaac,trial_result,9,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.20,-0.13,2.45);end=(0.47,-0.73,2.54);maxz=2.774"
+2026-09-11T19:54:20,1789149260.481656,isaac,trial_result,9,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.02,-0.24,2.45);end=(-0.43,-0.72,2.46);maxz=2.789"
+2026-09-11T19:54:20,1789149260.481798,isaac,trial_result,9,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.03,-0.35,2.45);end=(-0.43,-0.68,2.45);maxz=2.791"
+2026-09-11T19:55:02,1789149302.939195,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:55:02,1789149302.939415,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:55:02,1789149302.939890,motion,command_received,,,,
+2026-09-11T19:55:03,1789149303.941250,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T19:55:22,1789149322.957255,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T19:55:23,1789149323.958265,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:55:43,1789149343.127843,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:55:44,1789149344.128281,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T19:55:55,1789149355.449795,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T19:55:56,1789149356.450203,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:56:19,1789149379.347972,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:56:42,1789149402.832654,isaac,trial_result,10,/World/_07_tuna_fish_can,,"outcome=lifted_only;lifted=1;objtype=tuna_can;pose=laying;start=(-0.27,-0.32,2.44);end=(0.00,-0.46,2.44);maxz=2.743"
+2026-09-11T19:56:59,1789149419.760844,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:57:11,1789149431.926390,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:57:11,1789149431.926802,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:57:11,1789149431.927312,motion,command_received,,,,
+2026-09-11T19:57:12,1789149432.928203,motion,sequence_start,can 1,can 1,standing,
+2026-09-11T19:57:24,1789149444.250900,motion,sequence_end,can 1,can 1,standing,
+2026-09-11T19:57:25,1789149445.251209,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T19:57:58,1789149478.996053,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T19:57:58,1789149478.996150,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T19:57:59,1789149479.997233,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:58:31,1789149511.111706,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T19:58:31,1789149511.111790,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:58:32,1789149512.112217,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T19:58:43,1789149523.434518,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T19:59:00,1789149540.430419,isaac,trial_result,11,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.31,-0.21,2.44);end=(0.43,-0.73,2.49);maxz=2.791"
+2026-09-11T19:59:00,1789149540.430701,isaac,trial_result,11,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.03,-0.21,2.44);end=(-0.47,-0.69,2.45);maxz=2.789"
+2026-09-11T19:59:47,1789149587.644118,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T19:59:47,1789149587.644342,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T19:59:47,1789149587.645029,motion,command_received,,,,
+2026-09-11T19:59:48,1789149588.646281,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:00:26,1789149626.474710,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:00:26,1789149626.474811,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:00:27,1789149627.475185,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:00:48,1789149648.612403,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:00:49,1789149649.613214,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:01:26,1789149686.280712,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T20:01:26,1789149686.280801,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:01:27,1789149687.281246,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:02:02,1789149722.123176,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:02:02,1789149722.123325,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:02:18,1789149738.438598,isaac,trial_result,12,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.32,2.44);end=(-0.42,-0.69,2.45);maxz=2.789"
+2026-09-11T20:02:18,1789149738.438821,isaac,trial_result,12,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.24,-0.14,2.45);end=(0.33,-0.71,2.48);maxz=2.795"
+2026-09-11T20:02:18,1789149738.439057,isaac,trial_result,12,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.24,-0.17,2.44);end=(-0.42,-0.73,2.47);maxz=2.790"
+2026-09-11T20:03:12,1789149792.235045,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:03:12,1789149792.235287,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:03:12,1789149792.236622,motion,command_received,,,,
+2026-09-11T20:03:13,1789149793.238330,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:03:51,1789149831.367991,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:03:51,1789149831.368081,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:03:52,1789149832.368295,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:04:23,1789149863.707021,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:04:23,1789149863.707120,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:04:24,1789149864.708187,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:04:55,1789149895.541701,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:04:55,1789149895.541825,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:04:56,1789149896.543043,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:05:31,1789149931.814032,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:05:31,1789149931.814128,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:05:32,1789149932.815181,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:05:57,1789149957.304282,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:06:14,1789149974.873548,isaac,trial_result,13,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.16,2.44);end=(-0.42,-0.73,2.46);maxz=2.790"
+2026-09-11T20:06:14,1789149974.873769,isaac,trial_result,13,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.37,-0.30,2.45);end=(0.34,-0.71,2.49);maxz=2.794"
+2026-09-11T20:06:14,1789149974.873915,isaac,trial_result,13,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.17,-0.29,2.44);end=(0.38,-0.73,2.46);maxz=2.794"
+2026-09-11T20:06:14,1789149974.874047,isaac,trial_result,13,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.24,-0.39,2.44);end=(-0.44,-0.69,2.45);maxz=2.791"
+2026-09-11T20:07:09,1789150029.742337,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:07:09,1789150029.742639,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:07:09,1789150029.743206,motion,command_received,,,,
+2026-09-11T20:07:10,1789150030.744299,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:07:42,1789150062.979560,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:07:42,1789150062.979680,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:07:43,1789150063.980201,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:08:17,1789150097.575944,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:08:17,1789150097.576059,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:08:18,1789150098.577194,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:08:48,1789150128.654261,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:08:48,1789150128.654375,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:08:49,1789150129.655219,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:09:13,1789150153.813534,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:09:14,1789150154.814317,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:09:34,1789150174.899054,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:09:56,1789150196.077275,isaac,trial_result,14,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.07,-0.35,2.45);end=(-0.43,-0.71,2.45);maxz=2.784"
+2026-09-11T20:09:56,1789150196.077697,isaac,trial_result,14,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.27,-0.32,2.45);end=(0.50,-0.73,2.51);maxz=2.789"
+2026-09-11T20:09:56,1789150196.077907,isaac,trial_result,14,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.09,-0.39,2.46);end=(-0.43,-0.66,2.45);maxz=2.787"
+2026-09-11T20:10:36,1789150236.985564,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:10:36,1789150236.985742,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:10:36,1789150236.986930,motion,command_received,,,,
+2026-09-11T20:10:37,1789150237.988229,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:11:13,1789150273.766477,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:11:13,1789150273.766602,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:11:14,1789150274.767385,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:11:46,1789150306.813148,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:11:46,1789150306.813248,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:11:47,1789150307.814180,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:12:17,1789150337.977913,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:12:17,1789150337.978026,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:12:18,1789150338.979167,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:12:30,1789150350.303607,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:12:31,1789150351.304201,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T20:12:42,1789150362.630701,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T20:12:43,1789150363.650049,isaac,trial_result,15,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.38,-0.35,2.44);end=(-0.41,-0.72,2.48);maxz=2.794"
+2026-09-11T20:12:43,1789150363.650371,isaac,trial_result,15,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(0.00,-0.29,2.44);end=(0.36,-0.71,2.45);maxz=2.791"
+2026-09-11T20:12:43,1789150363.650521,isaac,trial_result,15,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.09,-0.20,2.44);end=(-0.43,-0.71,2.45);maxz=2.788"
+2026-09-11T20:13:31,1789150411.883460,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:13:31,1789150411.883649,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:13:31,1789150411.884235,motion,command_received,,,,
+2026-09-11T20:13:32,1789150412.885195,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:14:05,1789150445.866461,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:14:05,1789150445.866586,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:14:06,1789150446.867186,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:14:28,1789150468.778213,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:14:29,1789150469.779240,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:14:50,1789150490.999783,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:14:51,1789150492.000240,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T20:15:11,1789150511.825540,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T20:16:14,1789150574.606404,isaac,trial_result,16,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.09,-0.35,2.45);end=(-0.46,-0.71,2.47);maxz=2.793"
+2026-09-11T20:16:14,1789150574.606763,isaac,trial_result,16,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.06,-0.21,2.46);end=(-0.42,-0.72,2.44);maxz=2.734"
+2026-09-11T20:18:16,1789150696.465559,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:18:16,1789150696.465736,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:18:16,1789150696.466199,motion,command_received,,,,
+2026-09-11T20:18:17,1789150697.467350,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:18:52,1789150732.229176,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:18:52,1789150732.229297,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:18:53,1789150733.230214,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:19:26,1789150766.901672,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:19:26,1789150766.901765,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:19:27,1789150767.902719,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:20:02,1789150802.869686,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:20:02,1789150802.869775,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:20:03,1789150803.870263,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:20:33,1789150833.118408,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:20:34,1789150834.119201,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:20:58,1789150858.267644,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:21:25,1789150885.810577,isaac,trial_result,17,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.17,-0.20,2.45);end=(-0.44,-0.68,2.45);maxz=2.791"
+2026-09-11T20:21:25,1789150885.810803,isaac,trial_result,17,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.12,-0.20,2.45);end=(0.43,-0.74,2.47);maxz=2.776"
+2026-09-11T20:21:25,1789150885.811036,isaac,trial_result,17,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.06,-0.35,2.46);end=(-0.43,-0.72,2.45);maxz=2.788"
+2026-09-11T20:21:25,1789150885.811192,isaac,trial_result,17,/World/_05_tomato_soup_can_01,,"outcome=lifted_only;lifted=1;objtype=soup_can_2;pose=laying;start=(0.37,-0.27,2.45);end=(0.10,-0.34,2.44);maxz=2.738"
+2026-09-11T20:22:11,1789150931.067596,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:22:11,1789150931.067810,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:22:11,1789150931.068233,motion,command_received,,,,
+2026-09-11T20:22:12,1789150932.069261,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:22:47,1789150967.836186,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:22:47,1789150967.836301,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:22:48,1789150968.837191,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:23:12,1789150992.279980,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:23:13,1789150993.281224,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:23:33,1789151013.191562,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:23:34,1789151014.192384,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:23:53,1789151033.462122,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:24:19,1789151059.542372,isaac,trial_result,18,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.06,-0.29,2.46);end=(-0.43,-0.68,2.45);maxz=2.784"
+2026-09-11T20:25:04,1789151104.926896,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:25:04,1789151104.927052,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:25:04,1789151104.927777,motion,command_received,,,,
+2026-09-11T20:25:05,1789151105.929432,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:25:40,1789151140.053548,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:25:40,1789151140.053650,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:25:41,1789151141.054280,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:26:05,1789151165.749541,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:26:06,1789151166.750309,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:26:40,1789151200.993849,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T20:26:40,1789151200.993942,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:26:41,1789151201.994277,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:27:00,1789151220.779015,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:27:45,1789151265.767067,isaac,trial_result,19,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.13,-0.20,2.45);end=(-0.43,-0.65,2.45);maxz=2.784"
+2026-09-11T20:27:45,1789151265.767509,isaac,trial_result,19,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=lifted_only;lifted=1;objtype=big_bottle;pose=laying;start=(-0.36,-0.20,2.45);end=(0.02,-0.54,2.46);maxz=2.736"
+2026-09-11T20:27:45,1789151265.768103,isaac,trial_result,19,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.06,-0.29,2.46);end=(-0.43,-0.71,2.45);maxz=2.787"
+2026-09-11T20:29:05,1789151345.095420,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:29:05,1789151345.095556,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:29:05,1789151345.095957,motion,command_received,,,,
+2026-09-11T20:29:06,1789151346.097182,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:29:42,1789151382.116496,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:29:42,1789151382.116613,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:29:43,1789151383.117821,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:30:03,1789151403.051434,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:30:04,1789151404.052195,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:30:27,1789151427.260705,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:30:28,1789151428.261401,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T20:30:59,1789151459.365494,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T20:30:59,1789151459.365616,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T20:31:00,1789151460.366262,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:31:35,1789151495.408279,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T20:31:35,1789151495.408364,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:32:00,1789151520.425535,isaac,trial_result,20,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.18,-0.24,2.45);end=(-0.41,-0.64,2.45);maxz=2.790"
+2026-09-11T20:32:00,1789151520.425747,isaac,trial_result,20,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.14,-0.20,2.45);end=(0.37,-0.70,2.46);maxz=2.737"
+2026-09-11T20:32:00,1789151520.425893,isaac,trial_result,20,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.23,-0.32,2.45);end=(0.37,-0.73,2.46);maxz=2.788"
+2026-09-11T20:32:00,1789151520.426097,isaac,trial_result,20,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.06,-0.34,2.45);end=(-0.42,-0.71,2.45);maxz=2.791"
+2026-09-11T20:34:29,1789151669.221444,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:34:29,1789151669.221666,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:34:29,1789151669.222031,motion,command_received,,,,
+2026-09-11T20:34:30,1789151670.223181,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:35:06,1789151706.546447,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:35:06,1789151706.546537,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:35:07,1789151707.547184,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:35:43,1789151743.422916,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:35:43,1789151743.423005,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:35:44,1789151744.423183,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:36:16,1789151776.015055,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:36:16,1789151776.015185,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:36:17,1789151777.016184,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:36:51,1789151811.272341,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:36:51,1789151811.272464,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:36:52,1789151812.273217,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:37:25,1789151845.765420,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:37:25,1789151845.765537,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:37:40,1789151860.435273,isaac,trial_result,21,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.35,-0.23,2.44);end=(-0.42,-0.68,2.46);maxz=2.791"
+2026-09-11T20:37:40,1789151860.435490,isaac,trial_result,21,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.13,-0.29,2.46);end=(0.39,-0.72,2.51);maxz=2.781"
+2026-09-11T20:37:40,1789151860.435636,isaac,trial_result,21,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.05,-0.16,2.44);end=(0.49,-0.62,2.45);maxz=2.792"
+2026-09-11T20:37:40,1789151860.435766,isaac,trial_result,21,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.22,-0.28,2.44);end=(-0.44,-0.65,2.45);maxz=2.785"
+2026-09-11T20:37:40,1789151860.435891,isaac,trial_result,21,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.06,-0.34,2.44);end=(-0.44,-0.72,2.45);maxz=2.786"
+2026-09-11T20:38:28,1789151908.252688,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:38:28,1789151908.252880,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:38:28,1789151908.253360,motion,command_received,,,,
+2026-09-11T20:38:29,1789151909.254243,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:39:01,1789151941.714065,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:39:01,1789151941.714196,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:39:02,1789151942.715297,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:39:22,1789151962.284976,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:39:23,1789151963.285578,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:39:43,1789151983.587456,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:39:44,1789151984.588260,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T20:40:08,1789152008.687183,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T20:40:09,1789152009.688205,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:40:40,1789152040.229880,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T20:40:40,1789152040.229969,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:41:15,1789152075.301878,isaac,trial_result,22,/World/_07_tuna_fish_can,,"outcome=lifted_only;lifted=1;objtype=tuna_can;pose=laying;start=(0.06,-0.21,2.44);end=(0.03,-0.35,2.44);maxz=2.740"
+2026-09-11T20:41:15,1789152075.302861,isaac,trial_result,22,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.17,-0.32,2.44);end=(-0.43,-0.71,2.45);maxz=2.793"
+2026-09-11T20:41:15,1789152075.303306,isaac,trial_result,22,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.31,-0.34,2.44);end=(-0.43,-0.65,2.45);maxz=2.787"
+2026-09-11T20:42:16,1789152136.217984,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:42:16,1789152136.218141,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:42:16,1789152136.218555,motion,command_received,,,,
+2026-09-11T20:42:17,1789152137.219515,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:42:51,1789152171.543471,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:42:51,1789152171.543562,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:42:52,1789152172.544300,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:43:27,1789152207.996744,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:43:27,1789152207.996842,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:43:28,1789152208.997890,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:43:59,1789152239.748217,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:43:59,1789152239.748338,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:44:00,1789152240.749194,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:44:20,1789152260.303711,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:44:21,1789152261.304255,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:44:57,1789152297.080311,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T20:44:57,1789152297.080432,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:45:11,1789152311.178929,isaac,trial_result,23,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.28,-0.21,2.44);end=(-0.43,-0.65,2.45);maxz=2.786"
+2026-09-11T20:45:11,1789152311.179162,isaac,trial_result,23,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.11,-0.29,2.46);end=(0.48,-0.72,2.46);maxz=2.770"
+2026-09-11T20:45:11,1789152311.179318,isaac,trial_result,23,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.32,-0.29,2.44);end=(0.47,-0.74,2.51);maxz=2.792"
+2026-09-11T20:45:11,1789152311.179528,isaac,trial_result,23,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.07,-0.34,2.44);end=(-0.43,-0.72,2.45);maxz=2.790"
+2026-09-11T20:45:57,1789152357.101328,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:45:57,1789152357.101509,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:45:57,1789152357.101789,motion,command_received,,,,
+2026-09-11T20:45:58,1789152358.103186,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:46:31,1789152391.775182,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:46:31,1789152391.775303,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:46:32,1789152392.776298,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:47:10,1789152430.011971,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:47:10,1789152430.012118,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:47:11,1789152431.013286,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:47:44,1789152464.246260,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:47:44,1789152464.246387,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:47:45,1789152465.247306,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:48:16,1789152496.257726,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:48:16,1789152496.257853,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:48:17,1789152497.258253,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:48:28,1789152508.581726,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:48:41,1789152521.468288,isaac,trial_result,24,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(0.29,-0.32,2.45);end=(-0.46,-0.65,2.45);maxz=2.793"
+2026-09-11T20:48:41,1789152521.468560,isaac,trial_result,24,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.06,-0.20,2.45);end=(0.40,-0.72,2.55);maxz=2.788"
+2026-09-11T20:48:41,1789152521.468729,isaac,trial_result,24,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.32,-0.31,2.45);end=(0.41,-0.70,2.59);maxz=2.789"
+2026-09-11T20:48:41,1789152521.468955,isaac,trial_result,24,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.09,-0.34,2.45);end=(-0.43,-0.71,2.45);maxz=2.787"
+2026-09-11T20:50:01,1789152601.702511,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:50:01,1789152601.702666,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:50:01,1789152601.703205,motion,command_received,,,,
+2026-09-11T20:50:02,1789152602.704667,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:50:37,1789152637.911335,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:50:37,1789152637.911422,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:50:38,1789152638.912357,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:51:09,1789152669.220378,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:51:09,1789152669.220461,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:51:10,1789152670.221290,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:51:45,1789152705.842244,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:51:45,1789152705.842336,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:51:46,1789152706.843203,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:52:05,1789152725.915507,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:52:24,1789152744.277194,isaac,trial_result,24,/World/_07_tuna_fish_can,,"outcome=lifted_only;lifted=1;objtype=tuna_can;pose=laying;start=(0.29,-0.32,2.45);end=(-0.36,-0.26,2.44);maxz=2.793"
+2026-09-11T20:52:24,1789152744.277611,isaac,trial_result,24,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.06,-0.20,2.45);end=(0.44,-0.72,2.49);maxz=2.788"
+2026-09-11T20:52:24,1789152744.277966,isaac,trial_result,24,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.32,-0.31,2.45);end=(0.36,-0.72,2.45);maxz=2.791"
+2026-09-11T20:52:24,1789152744.278322,isaac,trial_result,24,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.41,-0.22,2.46);end=(-0.44,-0.68,2.45);maxz=2.783"
+2026-09-11T20:52:24,1789152744.278662,isaac,trial_result,24,/World/_05_tomato_soup_can_01,,"outcome=lifted_only;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.09,-0.34,2.45);end=(-0.39,-0.34,2.44);maxz=2.787"
+2026-09-11T20:53:24,1789152804.793994,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:53:24,1789152804.794147,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:53:24,1789152804.794575,motion,command_received,,,,
+2026-09-11T20:53:25,1789152805.795237,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:53:45,1789152825.192203,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:53:46,1789152826.193283,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:54:20,1789152860.101769,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:54:20,1789152860.101890,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:54:21,1789152861.102259,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:54:58,1789152898.483044,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T20:54:58,1789152898.483170,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:54:59,1789152899.484198,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:55:32,1789152932.103789,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:55:32,1789152932.103918,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:55:33,1789152933.104629,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T20:55:51,1789152951.783689,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T20:56:11,1789152971.292009,isaac,trial_result,25,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.04,-0.30,2.45);end=(0.33,-0.71,2.49);maxz=2.789"
+2026-09-11T20:56:11,1789152971.292237,isaac,trial_result,25,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.16,-0.23,2.45);end=(0.43,-0.72,2.55);maxz=2.785"
+2026-09-11T20:56:11,1789152971.292387,isaac,trial_result,25,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.26,-0.34,2.46);end=(-0.44,-0.68,2.45);maxz=2.789"
+2026-09-11T20:56:44,1789153004.552692,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T20:56:44,1789153004.552842,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T20:56:44,1789153004.553403,motion,command_received,,,,
+2026-09-11T20:56:45,1789153005.555032,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:57:19,1789153039.304575,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:57:19,1789153039.304681,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:57:20,1789153040.305277,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:57:58,1789153078.284176,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T20:57:58,1789153078.284314,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:57:59,1789153079.285187,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:58:34,1789153114.672623,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T20:58:34,1789153114.672711,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:58:35,1789153115.673189,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T20:58:54,1789153134.536136,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T20:58:55,1789153135.537306,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T20:59:14,1789153154.274506,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T20:59:25,1789153165.802641,isaac,trial_result,26,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(0.01,-0.23,2.45);end=(0.43,-0.73,2.51);maxz=2.790"
+2026-09-11T20:59:25,1789153165.802859,isaac,trial_result,26,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.03,-0.34,2.46);end=(-0.43,-0.70,2.45);maxz=2.789"
+2026-09-11T20:59:25,1789153165.803008,isaac,trial_result,26,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.16,-0.34,2.45);end=(-0.44,-0.65,2.45);maxz=2.788"
+2026-09-11T21:00:13,1789153213.445382,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:00:13,1789153213.445607,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:00:13,1789153213.446242,motion,command_received,,,,
+2026-09-11T21:00:14,1789153214.447350,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:00:46,1789153246.192882,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:00:46,1789153246.192999,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:00:47,1789153247.193705,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:01:20,1789153280.395326,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:01:20,1789153280.395416,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:01:21,1789153281.396720,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:01:51,1789153311.739437,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:01:51,1789153311.739544,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:01:52,1789153312.740213,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:02:24,1789153344.881581,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:02:24,1789153344.881713,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:02:25,1789153345.882232,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:03:02,1789153382.859658,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:03:02,1789153382.859745,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:03:22,1789153402.894260,isaac,trial_result,27,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.29,-0.34,2.44);end=(-0.40,-0.71,2.45);maxz=2.789"
+2026-09-11T21:03:22,1789153402.894478,isaac,trial_result,27,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.02,-0.31,2.45);end=(0.33,-0.71,2.47);maxz=2.789"
+2026-09-11T21:03:22,1789153402.894630,isaac,trial_result,27,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.25,-0.21,2.44);end=(0.43,-0.73,2.55);maxz=2.790"
+2026-09-11T21:03:22,1789153402.894764,isaac,trial_result,27,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.33,-0.28,2.44);end=(-0.42,-0.68,2.48);maxz=2.791"
+2026-09-11T21:03:22,1789153402.894892,isaac,trial_result,27,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.16,-0.34,2.44);end=(-0.41,-0.66,2.45);maxz=2.791"
+2026-09-11T21:04:07,1789153447.669581,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:04:07,1789153447.669801,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:04:07,1789153447.670973,motion,command_received,,,,
+2026-09-11T21:04:08,1789153448.672375,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:04:41,1789153481.898466,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:04:41,1789153481.898585,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:04:42,1789153482.899276,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:05:05,1789153505.978582,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:05:06,1789153506.979267,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:05:41,1789153541.588573,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:05:41,1789153541.588665,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:05:42,1789153542.589224,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:06:12,1789153572.868037,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:06:12,1789153572.868135,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:06:13,1789153573.869210,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:06:47,1789153607.244733,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T21:06:47,1789153607.244829,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:07:47,1789153667.595722,isaac,trial_result,28,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.06,-0.18,2.45);end=(-0.45,-0.66,2.45);maxz=2.791"
+2026-09-11T21:07:47,1789153667.595940,isaac,trial_result,28,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.40,-0.30,2.45);end=(0.34,-0.68,2.53);maxz=2.789"
+2026-09-11T21:07:47,1789153667.596090,isaac,trial_result,28,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(0.07,-0.26,2.45);end=(0.41,-0.73,2.50);maxz=2.788"
+2026-09-11T21:07:47,1789153667.596235,isaac,trial_result,28,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.14,-0.28,2.46);end=(-0.43,-0.72,2.45);maxz=2.793"
+2026-09-11T21:08:34,1789153714.116508,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:08:34,1789153714.116652,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:08:34,1789153714.117184,motion,command_received,,,,
+2026-09-11T21:08:35,1789153715.118257,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:09:07,1789153747.212949,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:09:07,1789153747.213037,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:09:08,1789153748.213190,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:09:45,1789153785.166436,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:09:45,1789153785.166527,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:09:46,1789153786.167920,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:10:17,1789153817.967960,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:10:17,1789153817.968079,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:10:18,1789153818.969211,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:10:54,1789153854.141135,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:10:54,1789153854.141227,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:10:55,1789153855.142176,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:11:30,1789153890.964789,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:11:30,1789153890.964886,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:11:37,1789153897.388198,isaac,trial_result,29,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.06,-0.36,2.45);end=(-0.45,-0.67,2.45);maxz=2.788"
+2026-09-11T21:11:37,1789153897.388614,isaac,trial_result,29,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_wrong_bin;lifted=1;objtype=big_bottle;pose=laying;start=(0.08,-0.14,2.45);end=(-0.45,-0.68,2.50);maxz=2.770"
+2026-09-11T21:11:37,1789153897.388968,isaac,trial_result,29,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.36,-0.26,2.45);end=(0.50,-0.73,2.50);maxz=2.782"
+2026-09-11T21:11:37,1789153897.389337,isaac,trial_result,29,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.13,-0.28,2.46);end=(-0.43,-0.72,2.46);maxz=2.787"
+2026-09-11T21:11:37,1789153897.389688,isaac,trial_result,29,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.29,-0.34,2.45);end=(-0.38,-0.65,2.48);maxz=2.788"
+2026-09-11T21:13:14,1789153994.952002,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:13:14,1789153994.952157,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:13:14,1789153994.952523,motion,command_received,,,,
+2026-09-11T21:13:15,1789153995.953287,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:13:49,1789154029.728216,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:13:49,1789154029.728338,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:13:50,1789154030.729232,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:14:24,1789154064.196667,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:14:24,1789154064.196783,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:14:25,1789154065.197926,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:14:58,1789154098.770951,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:14:58,1789154098.771067,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:14:59,1789154099.772249,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:15:17,1789154117.555669,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:15:18,1789154118.556401,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:15:36,1789154136.794190,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:16:30,1789154190.063992,isaac,trial_result,30,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.06,-0.36,2.45);end=(-0.43,-0.72,2.45);maxz=2.784"
+2026-09-11T21:16:30,1789154190.064326,isaac,trial_result,30,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.14,-0.26,2.45);end=(0.42,-0.73,2.50);maxz=2.786"
+2026-09-11T21:16:30,1789154190.064487,isaac,trial_result,30,/World/_05_tomato_soup_can,,"outcome=lifted_only;lifted=1;objtype=soup_can;pose=laying;start=(-0.27,-0.28,2.46);end=(0.01,-0.46,2.44);maxz=2.737"
+2026-09-11T21:16:30,1789154190.064638,isaac,trial_result,30,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.10,-0.34,2.45);end=(-0.44,-0.65,2.45);maxz=2.784"
+2026-09-11T21:17:30,1789154250.270016,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:17:30,1789154250.270226,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:17:30,1789154250.270872,motion,command_received,,,,
+2026-09-11T21:17:31,1789154251.272290,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:18:10,1789154290.023179,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:18:10,1789154290.023297,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:18:11,1789154291.024168,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:18:35,1789154315.176066,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:18:36,1789154316.177202,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:19:10,1789154350.286655,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:19:10,1789154350.286780,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:19:11,1789154351.287264,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T21:19:43,1789154383.315819,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T21:19:43,1789154383.315940,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T21:19:44,1789154384.316209,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:19:55,1789154395.628206,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:21:01,1789154461.596791,isaac,trial_result,31,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.14,-0.21,2.45);end=(0.40,-0.73,2.49);maxz=2.789"
+2026-09-11T21:21:01,1789154461.596998,isaac,trial_result,31,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.14,-0.21,2.46);end=(-0.41,-0.64,2.45);maxz=2.789"
+2026-09-11T21:21:01,1789154461.597156,isaac,trial_result,31,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.10,-0.34,2.45);end=(-0.43,-0.71,2.45);maxz=2.786"
+2026-09-11T21:21:54,1789154514.970418,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:21:54,1789154514.970571,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:21:54,1789154514.971100,motion,command_received,,,,
+2026-09-11T21:21:55,1789154515.972261,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:22:15,1789154535.053140,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:22:16,1789154536.054291,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:22:37,1789154557.553574,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:22:38,1789154558.554310,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:23:11,1789154591.659256,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T21:23:11,1789154591.659376,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:23:12,1789154592.660345,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:23:47,1789154627.076978,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T21:23:47,1789154627.077106,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:23:48,1789154628.078212,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T21:23:59,1789154639.402648,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T21:26:31,1789154791.288034,isaac,trial_result,32,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.01,-0.19,2.45);end=(-0.43,-0.69,2.45);maxz=2.785"
+2026-09-11T21:26:31,1789154791.288422,isaac,trial_result,32,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.14,-0.21,2.46);end=(-0.46,-0.71,2.46);maxz=2.792"
+2026-09-11T21:26:31,1789154791.288566,isaac,trial_result,32,/World/_05_tomato_soup_can_01,,"outcome=lifted_only;lifted=1;objtype=soup_can_2;pose=laying;start=(-0.27,-0.29,2.45);end=(-0.01,-0.42,2.45);maxz=2.736"
+2026-09-11T21:28:20,1789154900.786818,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:28:32,1789154912.140486,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:28:32,1789154912.140801,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:28:32,1789154912.141302,motion,command_received,,,,
+2026-09-11T21:28:33,1789154913.142974,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:29:08,1789154948.936598,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:29:08,1789154948.936694,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:29:09,1789154949.937272,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:29:31,1789154971.025354,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:29:32,1789154972.026314,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:29:52,1789154992.573604,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:29:53,1789154993.574283,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:30:14,1789155014.825908,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:32:20,1789155140.984414,isaac,trial_result,33,/World/_07_tuna_fish_can,,"outcome=lifted_only;lifted=1;objtype=tuna_can;pose=laying;start=(-0.01,-0.19,2.45);end=(-0.01,-0.44,2.44);maxz=2.735"
+2026-09-11T21:32:20,1789155140.984621,isaac,trial_result,33,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(-0.01,-0.35,2.45);end=(0.39,-0.72,2.55);maxz=2.787"
+2026-09-11T21:32:20,1789155140.984907,isaac,trial_result,33,/World/_05_tomato_soup_can_01,,"outcome=lifted_only;lifted=1;objtype=soup_can_2;pose=laying;start=(0.12,-0.29,2.45);end=(0.04,-0.47,2.45);maxz=2.737"
+2026-09-11T21:33:18,1789155198.879739,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:33:18,1789155198.879863,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:33:18,1789155198.880653,motion,command_received,,,,
+2026-09-11T21:33:19,1789155199.881306,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:33:50,1789155230.580071,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:33:50,1789155230.580191,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:33:51,1789155231.581211,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:34:27,1789155267.298461,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:34:27,1789155267.298545,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:34:28,1789155268.299209,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:34:52,1789155292.652328,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:34:53,1789155293.653256,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:35:27,1789155327.125259,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:35:27,1789155327.125361,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:35:28,1789155328.126171,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:35:39,1789155339.438221,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:36:25,1789155385.037761,isaac,trial_result,34,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.01,-0.14,2.45);end=(-0.43,-0.66,2.45);maxz=2.792"
+2026-09-11T21:36:25,1789155385.038438,isaac,trial_result,34,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.24,-0.35,2.45);end=(0.41,-0.73,2.50);maxz=2.794"
+2026-09-11T21:36:25,1789155385.039011,isaac,trial_result,34,/World/_05_tomato_soup_can_01,,"outcome=sorted_correct;lifted=1;objtype=soup_can_2;pose=laying;start=(0.12,-0.29,2.45);end=(-0.43,-0.71,2.45);maxz=2.794"
+2026-09-11T21:37:29,1789155449.857684,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:37:29,1789155449.857813,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:37:29,1789155449.858713,motion,command_received,,,,
+2026-09-11T21:37:30,1789155450.859317,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:37:54,1789155474.154623,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:37:55,1789155475.155231,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:38:06,1789155486.458188,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:42:03,1789155723.257737,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:42:03,1789155723.257885,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:42:03,1789155723.258490,motion,command_received,,,,
+2026-09-11T21:42:04,1789155724.259307,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:42:37,1789155757.132381,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:42:37,1789155757.132462,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:42:38,1789155758.133214,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:43:09,1789155789.537868,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:43:09,1789155789.537954,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:43:10,1789155790.538194,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:43:45,1789155825.822235,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:43:45,1789155825.822343,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:43:46,1789155826.823204,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:44:05,1789155845.704388,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:44:06,1789155846.705162,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:44:43,1789155883.507895,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T21:44:43,1789155883.508024,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:45:42,1789155942.597615,isaac,trial_result,36,/World/_07_tuna_fish_can,,"outcome=sorted_correct;lifted=1;objtype=tuna_can;pose=laying;start=(-0.07,-0.33,2.45);end=(-0.42,-0.68,2.45);maxz=2.793"
+2026-09-11T21:45:42,1789155942.597875,isaac,trial_result,36,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.07,-0.21,2.45);end=(0.44,-0.69,2.52);maxz=2.771"
+2026-09-11T21:45:42,1789155942.598025,isaac,trial_result,36,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.24,-0.30,2.45);end=(0.42,-0.73,2.50);maxz=2.789"
+2026-09-11T21:45:42,1789155942.598165,isaac,trial_result,36,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(0.29,-0.21,2.46);end=(-0.41,-0.72,2.46);maxz=2.786"
+2026-09-11T21:46:29,1789155989.157148,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:46:29,1789155989.157352,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:46:29,1789155989.158070,motion,command_received,,,,
+2026-09-11T21:46:30,1789155990.159211,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:46:56,1789156016.222660,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:46:57,1789156017.223306,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:47:15,1789156035.673057,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:47:16,1789156036.674218,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:47:53,1789156073.378038,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T21:47:53,1789156073.378160,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:47:54,1789156074.379242,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:48:25,1789156105.395799,motion,sequence_complete_ok,can 2,can 2,lying,
+2026-09-11T21:48:25,1789156105.395884,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:48:26,1789156106.396255,motion,sequence_start,bottle 2,bottle 2,lying,
+2026-09-11T21:49:04,1789156144.731577,motion,sequence_complete_ok,bottle 2,bottle 2,lying,
+2026-09-11T21:49:04,1789156144.731670,motion,sequence_end,bottle 2,bottle 2,lying,
+2026-09-11T21:51:06,1789156266.255439,isaac,trial_result,38,NONE,,outcome=no_change;lifted=0;objtype=none;pose=laying
+2026-09-11T21:53:24,1789156404.096512,llm,voice_received,pick clear all,pick clear all,,
+2026-09-11T21:53:24,1789156404.096710,llm,command_published,clear_all,clear_all,,class=;pose=
+2026-09-11T21:53:24,1789156404.097335,motion,command_received,,,,
+2026-09-11T21:53:25,1789156405.098200,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:54:02,1789156442.406757,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:54:02,1789156442.406876,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:54:03,1789156443.407199,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:54:33,1789156473.788385,motion,sequence_complete_ok,can 1,can 1,lying,
+2026-09-11T21:54:33,1789156473.788504,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:54:34,1789156474.789211,motion,sequence_start,can 1,can 1,lying,
+2026-09-11T21:54:59,1789156499.691642,motion,sequence_end,can 1,can 1,lying,
+2026-09-11T21:55:00,1789156500.692304,motion,sequence_start,can 2,can 2,lying,
+2026-09-11T21:55:19,1789156519.920218,motion,sequence_end,can 2,can 2,lying,
+2026-09-11T21:55:20,1789156520.921227,motion,sequence_start,bottle 1,bottle 1,lying,
+2026-09-11T21:55:57,1789156557.226489,motion,sequence_complete_ok,bottle 1,bottle 1,lying,
+2026-09-11T21:55:57,1789156557.227595,motion,sequence_end,bottle 1,bottle 1,lying,
+2026-09-11T21:56:44,1789156604.210716,isaac,trial_result,39,/World/NaturalBostonRoundBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=big_bottle;pose=laying;start=(0.07,-0.32,2.45);end=(0.43,-0.71,2.46);maxz=2.772"
+2026-09-11T21:56:44,1789156604.211130,isaac,trial_result,39,/World/WhitePackerBottle_A01_PR_NVD_01,,"outcome=sorted_correct;lifted=1;objtype=packer_bottle;pose=laying;start=(-0.24,-0.16,2.45);end=(0.37,-0.71,2.45);maxz=2.787"
+2026-09-11T21:56:44,1789156604.211484,isaac,trial_result,39,/World/_05_tomato_soup_can,,"outcome=sorted_correct;lifted=1;objtype=soup_can;pose=laying;start=(-0.23,-0.32,2.46);end=(-0.42,-0.70,2.45);maxz=2.785"

@@ -1,0 +1,41 @@
+# ============================================================
+# FEEDBACK TEMPLATES - Pfand Sorting System
+# ============================================================
+# Purpose: Standard response templates for user communication.
+# Usage:   Replace placeholders {object}, {count}, {bin},
+#          {description}, {reason} with actual values.
+# ============================================================
+
+## SUCCESS TEMPLATES
+- pick_success: "I have picked the {object}."
+- sort_success: "Sorted {count} {object}(s) to Bin {bin}."
+- place_success: "Placed the {object} in Bin {bin}."
+- complete_success: "Task completed. {summary}"
+- sort_group_done: "All {object}s sorted to Bin {bin}. Moving to next type."
+- clear_complete: "Table cleared. Sorted {bottle_count} bottle(s) to Bin A and {can_count} can(s) to Bin B."
+
+## FAILURE TEMPLATES
+- object_not_found: "I cannot see any {object}(s) on the table."
+- object_unreachable: "The {object} is outside my reachable workspace."
+- unsafe_position: "The {object} is too close to the edge. It is unsafe to pick."
+- no_vision: "I cannot see the table right now. Please check the camera."
+- empty_table: "The table is empty. There is nothing to sort."
+
+## CLARIFICATION TEMPLATES
+- ambiguous_object: "I see {count} {object}(s). Which one do you mean?"
+- ambiguous_type: "Do you mean the bottles, the cans, or all of them?"
+- ambiguous_command: "Should I {action1} or {action2}?"
+- missing_target: "Where should I place it? Bin A or Bin B?"
+- same_type_multiple: "I see {count} {object}s. Which one: the one on the left or the right?"
+
+## QUERY RESPONSE TEMPLATES
+- scene_description: "I see {description} on the table."
+- count_response: "There are {count} {object}(s) on the table."
+- count_single: "There is 1 {object} on the table."
+- count_none: "There are no {object}s on the table."
+- recommendation: "Based on what I see, I recommend {suggestion}."
+
+## STATUS TEMPLATES
+- ready: "Ready. What would you like me to do?"
+- busy: "I am currently {action}. Please wait."
+- progress: "Sorting in progress: {done} of {total} objects sorted."

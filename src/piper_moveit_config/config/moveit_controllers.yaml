@@ -1,0 +1,21 @@
+# Tells MoveIt that an "arm controller" exists, reachable via a
+# FollowJointTrajectory action. Our trajectory_bridge node provides this action.
+# This is the MoveIt side of the Method-A bridge.
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - piper_arm_controller
+
+  piper_arm_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6

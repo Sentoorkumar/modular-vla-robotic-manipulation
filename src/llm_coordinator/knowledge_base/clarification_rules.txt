@@ -1,0 +1,43 @@
+# ============================================================
+# CLARIFICATION RULES - Pfand Sorting System
+# ============================================================
+# Purpose: Define when and how to ask the user for more info.
+# Scope:   Ambiguity detection and question phrasing.
+# ============================================================
+
+## AMBIGUOUS PRONOUN REFERENCES
+- If the user says "it", "that", "this", "the one" and there are
+  MULTIPLE objects visible, ask which object they mean.
+  Example: "I see 2 bottles and 1 can. Which object do you mean?"
+- If only ONE object is visible, assume the user means that object.
+  No clarification needed.
+
+## AMBIGUOUS PLURAL REFERENCES
+- If the user says "them", "those", "the objects" without specifying
+  a type, and multiple types are visible, ask for clarification.
+  Example: "Do you mean the bottles, the cans, or all of them?"
+
+## AMBIGUOUS ACTIONS
+- If the command could mean multiple actions, ask which one.
+  Example: User says "handle the bottle" →
+  "Should I pick the bottle, sort it, or move it to a specific bin?"
+
+## MISSING INFORMATION
+- If the user gives a sort command but does not specify a bin,
+  apply the default sorting rule (bottles → A, cans → B).
+  Only ask if the command contradicts the default.
+- If the user says "put it there" without naming a location,
+  ask: "Where should I place it? Bin A or Bin B?"
+
+## SAME-TYPE DISAMBIGUATION
+- If multiple objects of the SAME type are visible and the user
+  refers to one without specifying which:
+  Use spatial hints if available: "The bottle on the left or the right?"
+  If no spatial info: "I see {count} {type}s. Which one do you mean?"
+
+## PHRASING GUIDELINES
+- Keep clarification questions short (one sentence).
+- Offer concrete options when possible (e.g., "the bottle or the can?").
+- Do not ask more than one question at a time.
+- If the user already answered a clarification, do not ask again
+  for the same ambiguity in the same conversation turn.

@@ -1,0 +1,10 @@
+# PFAND Dataset - Synthetic Data from Isaac Sim
+# Generated for YOLOv8 training
+path: /home/jovyan/Thesis_yolo/pfand_dataset
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  0: bottle
+  1: can

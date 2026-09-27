@@ -1,0 +1,66 @@
+# =============================================================================
+# Camera & Scene Calibration Configuration
+# =============================================================================
+# Purpose: Central calibration file for pixel <-> world coordinate conversion
+# Used by: perception_node.py
+#
+# How to adapt to real world:
+#   1. Replace 'camera' section with values from checkerboard calibration
+#   2. Replace 'table.top_z' with physical ruler measurement
+#   3. Replace 'robot.base_position' with measured tape position
+#   Everything else stays the same.
+# =============================================================================
+
+environment: "isaac_sim"   # options: isaac_sim | real_world
+# -----------------------------------------------------------------------------
+
+camera:
+  # ---- Extrinsics (world-frame pose of camera) ----
+  position:
+    x: 0.0          # meters
+    y: 1.58      # meters
+    z: 3.1          # meters
+  rotation_euler_deg:
+    x: -72.7        # degrees (roll)
+    y: 0.0          # degrees (pitch)
+    z: -180.0       # degrees (yaw)
+
+  # ---- Intrinsics (lens properties from Isaac Sim) ----
+  focal_length_mm: 15.0
+  horizontal_aperture_mm: 20.955
+  vertical_aperture_mm: 13.4
+
+  # ---- Image properties ----
+  image_width: 640
+  image_height: 480
+
+# -----------------------------------------------------------------------------
+
+table:
+  # Height of table surface in world frame (Z up)
+  top_z: 2.427      # meters
+
+# -----------------------------------------------------------------------------
+
+robot:
+  # Position of robot base (base_link) in world frame
+  base_position:
+    x: 0.0
+    y: -0.718
+    z: 2.43
+
+  # piper maximum reach radius in meters
+  # Used for reachability filtering: if object farther than this
+  # from robot base (horizontal distance), mark as NOT reachable
+  max_reach_m: 0.65
+
+# -----------------------------------------------------------------------------
+
+detection:
+  # Confidence threshold for YOLO detections
+  confidence_threshold: 0.5
+
+  # Known object classes
+  classes:
+    - bottle
+    - can
