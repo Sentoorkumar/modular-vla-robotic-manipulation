@@ -388,6 +388,24 @@ The `src/trac_ik/` directory is intentionally excluded from this repository beca
 
 ---
 
+## Automatic AI Model Setup
+
+For convenience, the required AI models can be prepared automatically after cloning the repository:
+
+```bash
+cd ~/llm_arm_ws
+./setup_models.sh
+```
+
+This script prepares the tested model configuration used by this project:
+
+- Whisper `small` for speech recognition
+- Qwen2.5 `7B Instruct Q4_0` through Ollama
+- Piper `en_US-lessac-medium` for speech synthesis
+- verifies the included custom YOLO `best.pt` perception model
+
+The first run requires an internet connection to download models that are not already available locally. The manual setup instructions below can be used if required.
+
 ## 7. Install Ollama and Qwen2.5
 
 Install Ollama using the installation instructions provided by the official Ollama project.
