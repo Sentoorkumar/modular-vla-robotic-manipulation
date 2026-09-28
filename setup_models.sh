@@ -104,11 +104,25 @@ echo
 echo "[5/5] Preparing Qwen LLM and checking YOLO model..."
 
 if ! command -v ollama >/dev/null 2>&1; then
-    echo
-    echo "ERROR: Ollama is not installed."
-    echo "Install Ollama first, then run this script again."
-    echo
-    exit 1
+    echo "Ollama not found."
+    echo "Installing Ollama using the official installer..."
+
+    if ! command -v curl >/dev/null 2>&1; then
+        echo "curl not found. Installing curl..."
+        sudo apt update
+        sudo apt install -y curl
+    fi
+
+    curl -fsSL https://ollama.com/install.sh | sh
+
+    if ! command -v ollama >/dev/null 2>&1; then
+        echo "ERROR: Ollama installation failed."
+        exit 1
+    fi
+
+    echo "Ollama installed successfully."
+else
+    echo "Ollama already installed."
 fi
 
 echo "Checking Qwen2.5 model..."
