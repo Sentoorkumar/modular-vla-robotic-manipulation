@@ -522,6 +522,55 @@ After a successful build, the required ROS 2 packages should be available.
 
 # Running the System
 
+## Recommended: Automatic ROS 2 Startup
+
+For normal operation, the ROS 2 components can be started automatically using the provided launcher script. The script opens each component in a separate GNOME Terminal and sources the ROS 2 workspace environment automatically in every terminal.
+
+Before running the launcher:
+
+1. Start NVIDIA Isaac Sim:
+
+   ```bash
+   cd ~/llm_arm_ws
+   ./start_isaacsim.sh
+   ```
+
+2. Open the supplied main USD scene.
+3. Press **PLAY** in Isaac Sim.
+4. Open the Isaac Sim **Script Editor** and run `grasp_with_judge.py`.
+
+   **Important:** If the simulation is stopped and PLAY is pressed again, run `grasp_with_judge.py` again.
+
+5. Make sure the Ollama service is available and the required Qwen model has been downloaded.
+
+Then open a normal Ubuntu terminal and run:
+
+```bash
+cd ~/llm_arm_ws
+./start_ros_system.sh
+```
+
+The launcher starts the following ROS 2 components in separate terminal windows:
+
+1. Speech-to-Text
+2. Trajectory Bridge
+3. MoveIt 2
+4. Perception Agent
+5. Motion Agent
+6. LLM Coordinator
+7. Text-to-Speech
+
+A startup delay is included between components, with additional initialization time provided for MoveIt 2.
+
+Once all terminals are running, the system is ready to receive spoken commands through the Speech-to-Text node.
+
+The manual startup procedure below can be used for debugging, development, or starting individual components separately.
+
+---
+
+## Manual Startup
+
+
 ## Important: Initialize Every ROS 2 Terminal
 
 For every new terminal used for a ROS 2 node, first run:
